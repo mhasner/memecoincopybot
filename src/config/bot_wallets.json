@@ -1,0 +1,7 @@
+[
+  {
+    "name":              "TradingBot",
+    "address":           "your_public_wallet_address",
+    "private_key_base58":"your_private_base58_key"
+  }
+]

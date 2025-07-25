@@ -1,0 +1,63 @@
+{
+  "rpc_url": "your_local_rpc_url",
+  "fallback_rpc_url": "your_rpc_url",
+  "relayer_url": "your_jito_endpoint",
+  "geyser_url": "your_geyser_endpoint",
+  "wallets_file": "src/config/bot_wallets.json",
+  "active_wallet": "TradingBot",
+  "jito": false,
+  "buy_slippage_percent": 30,
+  "buy_bribe_sol": 0.0015,
+  "buy_priority_fee_sol": 0,
+  "sell_min_sol_out": 0,
+  "sell_slippage_percent": 40,
+  "sell_bribe_sol": 0.0015,
+  "sell_priority_fee_sol": 0,
+  "take_profit_percent": 120,
+  "take_profit_sell_fraction": 0.5,
+  "tracked_wallets": [
+
+    {
+      "label": "Tracked_wallet_1",
+      "address": "3pZ59YENxDAcjaKa3sahZJBcgER4rGYi4v6BpPurmsGj",
+      "enabled": false,
+      "sol_gate": 1,
+      "buy_amount_sol": 0.4
+    },
+    {
+      "label": "Tracked_wallet_2",
+      "address": "3LYtEmYerFPeXgu1c9Y4553oMk2qVdcxiwWzDjzMkwPx",
+      "enabled": false,
+      "sol_gate": 2,
+      "buy_amount_sol": 0.4
+    },
+    {
+      "label": "Tracked_wallet_3",
+      "address": "AeLaMjzxErZt4drbWVWvcxpVyo8p94xu5vrg41eZPFe3",
+      "enabled": true,
+      "sol_gate": 0.8,
+      "buy_amount_sol": 0.4
+    },
+    {
+      "label": "Tracked_wallet_4",
+      "address": "BCagckXeMChUKrHEd6fKFA1uiWDtcmCXMsqaheLiUPJd",
+      "enabled": true,
+      "sol_gate": 1,
+      "buy_amount_sol": 0.4
+    },
+    {
+      "label": "Tracked_wallet_5",
+      "address": "DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj",
+      "enabled": false,
+      "sol_gate": 0.2,
+      "buy_amount_sol": 0.1
+    },
+    {
+      "label": "Tracked_wallet_6",
+      "address": "BCnqsPEtA1TkgednYEebRpkmwFRJDCjMQcKZMMtEdArc",
+      "enabled": false,
+      "sol_gate": 1.2,
+      "buy_amount_sol": 0.2
+    }
+  ]
+}
